@@ -1,0 +1,16 @@
+void setup (){
+size(1000,1000);
+background(25,255,0);
+}
+
+void draw() {// in a loop// make a crown
+beginShape();
+vertex(170,100);
+vertex(200,400);
+vertex(170,700);
+vertex (550,700);
+vertex (500,400);
+vertex (550,100);
+
+endShape();
+}
